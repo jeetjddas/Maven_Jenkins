@@ -4,12 +4,18 @@ import org.testng.annotations.Test;
 
 public class CreateOrganization {
 	@Test
-	public void createOrganization() {}
+	public void createOrganization() {
+		System.out.println("execute createOrganization");
+	}
 	
 	@Test
-	public void  deleteOrganization() {}
+	public void  deleteOrganization() {
+		System.out.println("execute deleteOrganization ");
+	}
 	
 	@Test
-	public void runOrganization() {}
+	public void runOrganization() {
+		System.out.println("execute runOrganization");
+	}
 
 }
